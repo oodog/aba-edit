@@ -40,6 +40,17 @@ _Edit Australian Bankers Association (ABA/Cemtex) batch payment files safely and
 ---
 
 ## Quick Start
+# Make sure venv is installed
+sudo apt update
+sudo apt install python3-venv
+
+# Create a venv inside your project folder
+cd ~/xero
+python3 -m venv venv
+
+# Activate it
+source venv/bin/activate
+
 
 ```bash
 # 1) Install dependencies
