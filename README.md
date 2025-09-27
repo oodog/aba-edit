@@ -40,6 +40,11 @@ _Edit Australian Bankers Association (ABA/Cemtex) batch payment files safely and
 ---
 
 ## Quick Start
+
+
+
+
+```bash
 # Make sure venv is installed
 sudo apt update
 sudo apt install python3-venv
@@ -51,8 +56,6 @@ python3 -m venv venv
 # Activate it
 source venv/bin/activate
 
-
-```bash
 # 1) Install dependencies
 pip install Flask waitress
 
